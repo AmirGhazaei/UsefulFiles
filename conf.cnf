@@ -1,0 +1,12 @@
+[req]
+default_bits = 2048
+distinguished_name = dn
+prompt             = no
+
+[dn]
+C="US"
+ST="California"
+O="MellatBroker"
+OU="IT"
+emailAddress="admin@mellatbroker.com"
+CN="*.mellatbroker.com"
